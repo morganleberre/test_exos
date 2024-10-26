@@ -1,6 +1,10 @@
 import unittest
 from main import Addition
+import sys
+import os
 
+# Ajouter le répertoire parent au chemin
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestAddition(unittest.TestCase):
 
