@@ -1,6 +1,6 @@
 import unittest
 
-from  main import calcul_taxes
+from main import calcul_taxes
 
 
 class TestTaxes(unittest.TestCase):
